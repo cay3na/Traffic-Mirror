@@ -276,9 +276,10 @@ the existing instance instead of launching a new one.
 Remove the `--geo` flag to see a numbered menu of nearby roads:
 
 
-python run_traffic_mirror.py --lat 40.6772 --lon 14.7604 --radius 400
+python run_traffic_mirror.py --lat 40.67285334444206 --lon 14.777352905394157 --radius 400
 
 The script will print a list of roads HERE monitors in that area. 
+
 Type the number of the road you want and press Enter.
 
 ### Reusing an Existing Map
@@ -293,18 +294,20 @@ python run_traffic_mirror.py --skip-provision
 
 To verify that the coordinate transformation is correct before starting the mirror:
 
-python run_traffic_mirror.py --lat 40.6772 --lon 14.7604 --radius 400 --geo --check-calibration
+python run_traffic_mirror.py --lat 40.67285334444206 --lon 14.777352905394157 --radius 400 --geo --check-calibration
 
 To see visual markers in the CARLA window:
 
-python run_traffic_mirror.py --lat 40.6772 --lon 14.7604 --radius 400 --geo --verify-calibration
+python run_traffic_mirror.py --lat 40.67285334444206 --lon 14.777352905394157 --radius 400 --geo --verify-calibration
 
 
 ### Recording HERE Data for Thesis Evidence
 
 Set `HERE_ARCHIVE_MODE=record` in your `.env` file before running.
+
 Every HERE API response will be saved as timestamped, SHA-256-hashed JSON in the `DataHERE/` folder. 
-This is the primary evidence that the traffic data that was discussed in the project is real.
+
+This is the evidence that the traffic data that was in the project is real.
 
 ---
 
