@@ -250,7 +250,7 @@ The `.gitignore` file in this project already excludes it.
 
 ### The One Command That Does Everything
 
-python run_traffic_mirror.py --lat 40.6772 --lon 14.7604 --radius 400 --geo
+`python run_traffic_mirror.py --lat 40.67285334444206 --lon 14.777352905394157 --radius 600 --geo`
 
 This single command:
 
