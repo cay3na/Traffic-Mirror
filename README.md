@@ -321,14 +321,22 @@ Command :
 
 What It Does : Everything: pick road, build map, start mirror
 
+
+
 Command : 
 
 `python run_traffic_mirror.py --lat LAT --lon LON --radius R`
 
 What It Does : Same but shows interactive road menu
 
-Command : `python run_traffic_mirror.py --skip-provision`
+
+
+Command : 
+`python run_traffic_mirror.py --skip-provision`
+
 What It Does : Reuse existing map, start mirror directly
+
+
 
 Command : 
 
@@ -336,11 +344,14 @@ Command :
 
 What It Does : Automated calibration check, then mirror
 
+
+
 Command : 
 
 `python run_traffic_mirror.py --skip-provision --verify-calibration`
 
 What It Does : Visual calibration markers, then mirror
+
 
 ### Individual Steps (Advanced)
 
@@ -349,9 +360,11 @@ What It Does : Visual calibration markers, then mirror
 Pick a road and configure the map profile only
 
 
+
 `python provision_map.py --lat LAT --lon LON --radius R --name NAME`
 
 Download and convert map only
+
 
 
 `python traffic_mirror.py`
