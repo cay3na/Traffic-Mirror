@@ -61,7 +61,7 @@ Other versions may not be compatible.
 
 1. Open your web browser.
 2. Go to: https://github.com/carla-simulator/carla/releases/tag/0.9.16/
-3. Scroll down to the **Assets** section.
+3. Look for `[Windows] CARLA_0.9.16.zip`
 4. Download `CARLA_0.9.16.zip` (about 20 GB).
 5. Once downloaded, right-click the zip file and click **Extract All**.
 6. Choose a location you will remember. For example: `C:\CARLA_0.9.16`
