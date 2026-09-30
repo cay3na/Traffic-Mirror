@@ -250,17 +250,17 @@ The `.gitignore` file in this project already excludes it.
 
 ### The One Command That Does Everything
 
-`python run_traffic_mirror.py --lat 40.67285334444206 --lon 14.777352905394157 --radius 600 --geo`
+`python run_traffic_mirror.py --lat 40.67285334444206 --lon 14.777352905394157 --radius 400 --geo`
 
-This single command:
+This command:
 
-1. Queries HERE for roads near latitude 40.6772, longitude 14.7604.
+1. Queries HERE for roads near latitude 40.67285334444206, longitude 14.777352905394157.
 2. Automatically picks the nearest road (`--geo` flag).
 3. Downloads the OpenStreetMap data for a 400-metre radius around that road.
 4. Converts the map to CARLA's OpenDRIVE format.
 5. Scans and patches any geometry problems in the converted map.
 6. Launches CARLA (if `CARLA_EXECUTABLE_PATH` is set in `.env`).
-7. Loads the map into CARLA.s
+7. Loads the map into CARLA.
 8. Starts the traffic mirror: spawning vehicles and adjusting their
    speeds every 60 seconds to match HERE's live data.
 
