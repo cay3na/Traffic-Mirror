@@ -218,13 +218,13 @@ Create it now.
 3. Open it with Notepad or any text editor.
 4. Paste the following and fill in your values:
 
-HERE_API_KEY=paste_your_here_api_key_here
+`HERE_API_KEY=paste_your_here_api_key_here
 
 CARLA_EXECUTABLE_PATH=C:\CARLA_0.9.16\CarlaUE4.exe
 
 HERE_ARCHIVE_MODE=off
 
-OSM_DOWNLOADER_CONTACT_EMAIL=your_email@example.com
+OSM_DOWNLOADER_CONTACT_EMAIL=your_email@example.com`
 
 
 Replace `paste_your_here_api_key_here` with the key from Step 4.
