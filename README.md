@@ -401,24 +401,17 @@ If the automatic download fails with 504 errors, download manually:
 3. Delete everything in the query box on the left side of overpass-turbo.
 4. Paste this (replace the numbers with yours):
 
-`[out:xml][timeout:180];`
-
-`(`
-
-`node(SOUTH,WEST,NORTH,EAST);`
-
-`way(SOUTH,WEST,NORTH,EAST);`
-
-`relation(SOUTH,WEST,NORTH,EAST);`
-
-`);`
-
-`out body;`
-
-`>;`
-
-`out skel qt;`
-
+```
+[out:xml][timeout:180];
+(
+node(SOUTH,WEST,NORTH,EAST);
+way(SOUTH,WEST,NORTH,EAST);
+relation(SOUTH,WEST,NORTH,EAST);
+);
+out body;
+>;
+out skel qt;
+```
 
 5. Click **Run** (top left). Wait up to 2 minutes.
 6. Click **Export** (top menu).
