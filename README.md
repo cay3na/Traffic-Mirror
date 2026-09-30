@@ -209,29 +209,39 @@ You need a free API key.
 
 ## Step 6: Configure the Environment File
 
-The project reads configuration from a file called `.env` in the project root directory. Create it now.
+The project reads configuration from a file called `.env` in the project root directory. 
+
+Create it now.
 
 1. In the project folder, create a new text file.
 2. Rename it to `.env` (just a dot, then `env`, no other extension).
-   Windows may warn you about changing the extension. 
-   Click **Yes**.
 3. Open it with Notepad or any text editor.
 4. Paste the following and fill in your values:
 
 HERE_API_KEY=paste_your_here_api_key_here
+
 CARLA_EXECUTABLE_PATH=C:\CARLA_0.9.16\CarlaUE4.exe
+
 HERE_ARCHIVE_MODE=off
+
 OSM_DOWNLOADER_CONTACT_EMAIL=your_email@example.com
 
-Replace `paste_your_here_api_key_here` with the key from Step 5.
+
+Replace `paste_your_here_api_key_here` with the key from Step 4.
+
 Replace the CARLA path with wherever you extracted CARLA.
+
 Replace the email with your real email 
+
 (Overpass API etiquette asks for a contact email; it is never shared publicly).
+
 
 5. Save the file.
 
 **Do not share the `.env` file or commit it to Git.** 
+
 It contains your private API key. 
+
 The `.gitignore` file in this project already excludes it.
 
 ---
