@@ -434,7 +434,7 @@ The script will find the file and skip the download.
 ## The Machine Learning Pipeline
 
 The ML pipeline is separate from the traffic mirror. 
-Run these steps in order after you have recorded at least one driving session.
+Run these steps in order after you have recorded at least one session.
 
 ### Step 1: Record Driving Data
 
