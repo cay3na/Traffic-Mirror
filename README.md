@@ -515,6 +515,7 @@ Run: `pip install pyproj`
 Find the path of `venv\Lib\site-packages\pyproj\proj_dir\share\proj`
 
 Run: `set PROJ_DATA=C:\...\venv\Lib\site-packages\pyproj\proj_dir\share\proj`
+
 Run: `set PROJ_LIB=C:\...\venv\Lib\site-packages\pyproj\proj_dir\share\proj`
 
 ### "ValueError: HERE_API_KEY is not set"
