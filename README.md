@@ -315,30 +315,47 @@ This is the evidence that the traffic data that was in the project is real.
 
 ### Full Pipeline
 
-Command : `python run_traffic_mirror.py --lat LAT --lon LON --radius R --geo`
+Command : 
+
+`python run_traffic_mirror.py --lat LAT --lon LON --radius R --geo`
+
 What It Does : Everything: pick road, build map, start mirror
 
-Command : `python run_traffic_mirror.py --lat LAT --lon LON --radius R`
+Command : 
+
+`python run_traffic_mirror.py --lat LAT --lon LON --radius R`
+
 What It Does : Same but shows interactive road menu
 
 Command : `python run_traffic_mirror.py --skip-provision`
 What It Does : Reuse existing map, start mirror directly
 
-Command : `python run_traffic_mirror.py --skip-provision --check-calibration`
+Command : 
+
+`python run_traffic_mirror.py --skip-provision --check-calibration`
+
 What It Does : Automated calibration check, then mirror
 
-Command : `python run_traffic_mirror.py --skip-provision --verify-calibration`
+Command : 
+
+`python run_traffic_mirror.py --skip-provision --verify-calibration`
+
 What It Does : Visual calibration markers, then mirror
 
 ### Individual Steps (Advanced)
 
 `python mirror_road.py --lat LAT --lon LON --radius R --geo`
+
 Pick a road and configure the map profile only
 
+
 `python provision_map.py --lat LAT --lon LON --radius R --name NAME`
+
 Download and convert map only
 
+
 `python traffic_mirror.py`
+
 Run the mirror only (map must be loaded in CARLA)
 
 
