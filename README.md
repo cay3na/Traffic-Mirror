@@ -521,7 +521,7 @@ Run: `set PROJ_LIB=C:\...\venv\Lib\site-packages\pyproj\proj_dir\share\proj`
 ### "ValueError: HERE_API_KEY is not set"
 
 Create or edit your `.env` file and add your HERE API key. 
-See Step 6.
+See Step 5.
 
 ### Overpass download fails with 504 errors
 
