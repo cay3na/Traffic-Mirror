@@ -125,16 +125,16 @@ Uninstall and reinstall with the PATH checkbox checked.
 Open a terminal. 
 Navigate to where you want the project folder to be created. 
 For example, to put it on your desktop:
-cd %USERPROFILE%\Desktop
+`cd %USERPROFILE%\Desktop`
 
 Then clone:
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
+`git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git`
 
 Replace `YOUR_USERNAME/YOUR_REPO_NAME` with the actual repository URL.
 
 Then enter the project folder:
 
-cd YOUR_REPO_NAME
+`cd YOUR_REPO_NAME`
 
 You are now inside the project directory. 
 All commands from this point forward assume you are in this directory.
@@ -144,23 +144,34 @@ All commands from this point forward assume you are in this directory.
 ## Step 4: Install Python Dependencies
 
 1. Create a virtual environment for this project
+
 Open the folder where the project is, where `requirements.txt` is. 
+
 Then, in the terminal, type:
 `py -3.12 -m venv venv`
+
 This creates a separate, isolated space just for this project. 
 
 2. Activate the virtual environment
+
 `venv\Scripts\activate`
 You'll know it worked because your terminal prompt will now show (venv) at the beginning of the line. 
+
 While it's active, everything you install goes only into this project's virtual environment.
+
 To leave the virtual environment later, type deactivate.
+
 Every time you open a new terminal window, you'll need to type venv\Scripts\activate again to activate it.
 
 3. Install the project's Python libraries
+
 Navigate to the folder that contains a file called requirements.txt 
+
 Then type:
 `pip install -r requirements.txt`
+
 This reads that list and downloads everything the project needs, all at once. 
+
 It may take a few minutes.
 
 ### Install the CARLA Python API
@@ -193,10 +204,6 @@ You need a free API key.
 4. Create a new project (use any name).
 5. Inside the project, click **Create API Key**.
 6. Copy the API key. It is a long string of letters and numbers.
-
-The free tier allows 250,000 API calls per month. 
-This project makes about 2 calls per minute (one for flow, one for incidents), 
-so you can run it continuously for over 80 days before hitting the limit.
 
 ---
 
