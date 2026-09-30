@@ -143,20 +143,24 @@ All commands from this point forward assume you are in this directory.
 
 ## Step 4: Install Python Dependencies
 
-In the project root
+1. Create a virtual environment for this project
+Open the folder where the project is, where `requirements.txt` is. 
+Then, in the terminal, type:
 `py -3.12 -m venv venv`
-to use a virtual environment.
+This creates a separate, isolated space just for this project. 
 
-then
-`cd venv` -> `cd Scripts` -> `activate.bat`
+2. Activate the virtual environment
+`venv\Scripts\activate`
+You'll know it worked because your terminal prompt will now show (venv) at the beginning of the line. 
+While it's active, everything you install goes only into this project's virtual environment.
+To leave the virtual environment later, type deactivate.
+Every time you open a new terminal window, you'll need to type venv\Scripts\activate again to activate it.
 
-then cd to where the requirements.txt is located.
-
-This project uses several Python libraries. 
-Install them all at once:
-pip install -r requirements.txt
-
-This reads the `requirements.txt` file and installs everything listed.
+3. Install the project's Python libraries
+Navigate to the folder that contains a file called requirements.txt 
+Then type:
+`pip install -r requirements.txt`
+This reads that list and downloads everything the project needs, all at once. 
 It may take a few minutes.
 
 ### Install the CARLA Python API
