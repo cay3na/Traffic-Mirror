@@ -546,7 +546,7 @@ If it persists, try a slightly different `--lat` / `--lon` or `--radius` to get 
 ---
 
 ## Project Structure
-
+```
 project_root/
 |
 |-- run_traffic_mirror.py   # Main entry point, runs the full pipeline
@@ -587,7 +587,7 @@ project_root/
 |-- maps/                           # Generated map files (.osm, .xodr)
 |-- DataCSV/                        # Recorded telemetry CSV files
 |-- DataHERE/                       # Archived HERE API responses
-
+```
 ---
 
 ## How It Works (Technical Summary)
