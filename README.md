@@ -176,7 +176,7 @@ You need to install it from the file that came with CARLA.
    Python 3.10, `cp311` for 3.11, `cp312` for 3.12).
 4. Verify the python version `python --version`
 5. Install it:
-pip install C:\CARLA_0.9.16\PythonAPI\carla\dist\carla-0.9.16-cp312-cp312-win_amd64.whl
+pip install `C:\CARLA_0.9.16\PythonAPI\carla\dist\carla-0.9.16-cp312-cp312-win_amd64.whl`
 
 Adjust the path and filename to match your setup.
 
