@@ -335,7 +335,7 @@ Command : `python run_traffic_mirror.py --skip-provision --verify-calibration`
 
 What It Does : Visual calibration markers, then mirror
 
-### Individual Steps (Advanced)
+### Individual Steps
 
 `python mirror_road.py --lat LAT --lon LON --radius R --geo`
 Pick a road and configure the map profile only
