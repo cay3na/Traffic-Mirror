@@ -29,11 +29,12 @@ into the CARLA driving simulator, records vehicle telemetry.
 
 ## What This Project Does
 
-This project picks a real road anywhere in the world, 
+This project picks a real road in the world, 
 downloads its map from OpenStreetMap, loads it into the CARLA driving simulator, 
 and then makes the simulated traffic behave like the real traffic on that road right now. 
 It does this by reading live speed and congestion data 
 from the HERE Traffic API every 60 seconds and adjusting the simulated vehicles to match.
+(Not tested in every road in the world)
 
 ---
 
