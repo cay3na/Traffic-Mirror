@@ -25,7 +25,6 @@ CARLA_LOW_SPEC_ARGUMENTS = [
     "-ResX=800",
     "-ResY=600",
     "-dx11",
-    "-benchmark",
     "-fps=30",
 ]
 
